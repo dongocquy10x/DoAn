@@ -1,0 +1,62 @@
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\bin\Debug\Presentation.exe.config
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\bin\Debug\Presentation.exe
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\bin\Debug\Presentation.pdb
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\bin\Debug\Common.dll
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\bin\Debug\DataAccess.dll
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\bin\Debug\Domain.dll
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\bin\Debug\Common.pdb
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\bin\Debug\DataAccess.pdb
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\bin\Debug\Domain.pdb
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.csprojAssemblyReference.cache
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.frmLogin.resources
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.csproj.GenerateResource.cache
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.csproj.CopyComplete
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.exe
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.pdb
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.frmGiaoDien.resources
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\bin\Debug\CircularProgressBar.dll
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\bin\Debug\WinFormAnimation.dll
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.frmWait_for_GiaoDien.resources
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.frmHangHoa.resources
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.frmkhachHang.resources
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.frmNhanVien.resources
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.frmDonHang.resources
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.frmNhaKho.resources
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.frmThuChi.resources
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.frmAdd.resources
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.frmNhapHang.resources
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.frmAddHangHoa.resources
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Presentation\obj\Debug\Presentation.frmAddKH.resources
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\bin\Debug\Presentation.exe.config
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\bin\Debug\Presentation.exe
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\bin\Debug\Presentation.pdb
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\bin\Debug\CircularProgressBar.dll
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\bin\Debug\Common.dll
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\bin\Debug\DataAccess.dll
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\bin\Debug\Domain.dll
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\bin\Debug\WinFormAnimation.dll
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\bin\Debug\Common.pdb
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\bin\Debug\DataAccess.pdb
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\bin\Debug\Domain.pdb
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.csprojAssemblyReference.cache
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.frmAdd.resources
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.frmAddHangHoa.resources
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.frmAddKH.resources
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.frmDonHang.resources
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.frmGiaoDien.resources
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.frmHangHoa.resources
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.frmkhachHang.resources
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.frmNhaKho.resources
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.frmNhanVien.resources
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.frmLogin.resources
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.frmNhapHang.resources
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.frmThuChi.resources
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.frmWait_for_GiaoDien.resources
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.csproj.GenerateResource.cache
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.csproj.CopyComplete
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.exe
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.pdb

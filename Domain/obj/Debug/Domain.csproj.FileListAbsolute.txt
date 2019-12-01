@@ -1,0 +1,21 @@
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Domain\bin\Debug\Domain.dll
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Domain\bin\Debug\Domain.pdb
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Domain\bin\Debug\Common.dll
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Domain\bin\Debug\DataAccess.dll
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Domain\bin\Debug\Common.pdb
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Domain\bin\Debug\DataAccess.pdb
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Domain\obj\Debug\Domain.csproj.CopyComplete
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Domain\obj\Debug\Domain.dll
+C:\Users\Acer\Documents\Visual Studio 2017\DoAnCSharp\Domain\obj\Debug\Domain.pdb
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Domain\bin\Debug\Domain.dll
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Domain\bin\Debug\Domain.pdb
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Domain\bin\Debug\Common.dll
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Domain\bin\Debug\DataAccess.dll
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Domain\bin\Debug\Common.pdb
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Domain\bin\Debug\DataAccess.pdb
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Domain\obj\Debug\Domain.csproj.CopyComplete
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Domain\obj\Debug\Domain.dll
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Domain\obj\Debug\Domain.pdb
