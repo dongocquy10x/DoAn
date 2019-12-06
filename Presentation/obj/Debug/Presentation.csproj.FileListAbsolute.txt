@@ -60,3 +60,5 @@ E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation
 E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.csproj.CopyComplete
 E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.exe
 E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.pdb
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.csproj.ResolveComReference.cache
+E:\IDM Download\tinpham-master\tinpham-master\DoAnCSharp\DoAnCSharp\Presentation\obj\Debug\Presentation.ChangePasswordFrm.resources

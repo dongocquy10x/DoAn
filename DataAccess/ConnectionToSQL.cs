@@ -13,7 +13,7 @@ namespace DataAccess
         public ConnectionToSQL()
         {
             //ConnectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=DANGNHAP;Integrated Security=True";
-            ConnectionString = "Server=(localdb)\\ProjectsV13;DataBase=DOAN;integrated security=True";
+            ConnectionString = "Data Source=DESKTOP-RRIQLD7\\SQLEXPRESS;Initial Catalog=QLST;Integrated Security=True";
         }
         protected SqlConnection GetSqlConnection()
         {

@@ -16,6 +16,7 @@ namespace Presentation
 {
     public partial class frmLogin : Form
     {
+
         public frmLogin()
         {
             InitializeComponent();
@@ -46,8 +47,23 @@ namespace Presentation
 
         private void BtnDangNhap_Click(object sender, EventArgs e)
         {
+
             string tk = txtTaiKhoan.Text;
             string mk = txtMatKhau.Text;
+            if (chkLuuMatKhau.Checked == true)
+            {
+                Properties.Settings.Default.username = tk;
+                Properties.Settings.Default.password = mk;
+                Properties.Settings.Default.checkBoxState = true;
+                Properties.Settings.Default.Save();
+            }
+            else
+            {
+                Properties.Settings.Default.username = string.Empty;
+                Properties.Settings.Default.password = string.Empty;
+                Properties.Settings.Default.checkBoxState = false;
+                Properties.Settings.Default.Save();
+            }
             if (tk == "")
             {
                 lblErrorMessage.Text = "Vui lòng nhập Tài khoản";
@@ -106,16 +122,35 @@ namespace Presentation
             // show frmLogin sau khi log out
             this.Show();
 
-            // xóa hết những gì đã nhập
-            this.txtTaiKhoan.Clear();
-            this.txtMatKhau.Clear();
-
+            luumatkhau();
             lblErrorMessage.Visible = false;
             txtTaiKhoan.Focus();
         }
 
+        private void chkLuuMatKhau_CheckedChanged(object sender, EventArgs e)
+        {
 
+        }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+            luumatkhau();
+        }
+        private void luumatkhau()
+        {
+            if (Properties.Settings.Default.username != string.Empty && Properties.Settings.Default.checkBoxState == true)
+            {
+                txtTaiKhoan.Text = Properties.Settings.Default.username;
+                txtMatKhau.Text = Properties.Settings.Default.password;
+                chkLuuMatKhau.Checked = true;
+            }
+            else
+            {
+                txtMatKhau.Text = string.Empty;
+                txtTaiKhoan.Text = string.Empty;
+                chkLuuMatKhau.Checked = false;
+            }
+        }
     }
-
 
 }

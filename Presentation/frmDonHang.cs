@@ -13,7 +13,7 @@ namespace Presentation
 {
     public partial class frmDonHang : Form
     {
-        SqlConnection sql = new SqlConnection("Data Source=(localdb)\\ProjectsV13;Initial Catalog=DOAN;Integrated Security=True");
+        SqlConnection sql = new SqlConnection("Data Source=DESKTOP-RRIQLD7\\SQLEXPRESS;Initial Catalog=QLST;Integrated Security=True");
         public frmDonHang()
         {
             InitializeComponent();

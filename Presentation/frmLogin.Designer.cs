@@ -80,19 +80,17 @@ namespace Presentation
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(300, 462);
+            this.panel1.Size = new System.Drawing.Size(200, 300);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.Window;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(4, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(296, 462);
+            this.pictureBox1.Size = new System.Drawing.Size(197, 300);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -114,20 +112,17 @@ namespace Presentation
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.lblTaiKhoan);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(300, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel2.Location = new System.Drawing.Point(200, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(750, 462);
+            this.panel2.Size = new System.Drawing.Size(500, 300);
             this.panel2.TabIndex = 1;
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Panel2_MouseDown);
             // 
             // picError
             // 
-            this.picError.Image = ((System.Drawing.Image)(resources.GetObject("picError.Image")));
-            this.picError.Location = new System.Drawing.Point(280, 312);
-            this.picError.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.picError.Location = new System.Drawing.Point(187, 203);
             this.picError.Name = "picError";
-            this.picError.Size = new System.Drawing.Size(27, 28);
+            this.picError.Size = new System.Drawing.Size(18, 18);
             this.picError.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picError.TabIndex = 17;
             this.picError.TabStop = false;
@@ -139,10 +134,9 @@ namespace Presentation
             this.lblErrorMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblErrorMessage.ForeColor = System.Drawing.Color.Maroon;
             this.lblErrorMessage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblErrorMessage.Location = new System.Drawing.Point(309, 317);
-            this.lblErrorMessage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblErrorMessage.Location = new System.Drawing.Point(206, 206);
             this.lblErrorMessage.Name = "lblErrorMessage";
-            this.lblErrorMessage.Size = new System.Drawing.Size(129, 24);
+            this.lblErrorMessage.Size = new System.Drawing.Size(94, 16);
             this.lblErrorMessage.TabIndex = 16;
             this.lblErrorMessage.Text = "ErrorMessage";
             this.lblErrorMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -154,13 +148,13 @@ namespace Presentation
             this.chkLuuMatKhau.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkLuuMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkLuuMatKhau.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.chkLuuMatKhau.Location = new System.Drawing.Point(201, 277);
-            this.chkLuuMatKhau.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.chkLuuMatKhau.Location = new System.Drawing.Point(134, 180);
             this.chkLuuMatKhau.Name = "chkLuuMatKhau";
-            this.chkLuuMatKhau.Size = new System.Drawing.Size(147, 26);
+            this.chkLuuMatKhau.Size = new System.Drawing.Size(103, 19);
             this.chkLuuMatKhau.TabIndex = 2;
             this.chkLuuMatKhau.Text = "Lưu Mật Khẩu";
             this.chkLuuMatKhau.UseVisualStyleBackColor = true;
+            this.chkLuuMatKhau.CheckedChanged += new System.EventHandler(this.chkLuuMatKhau_CheckedChanged);
             // 
             // IconMinimize
             // 
@@ -168,10 +162,9 @@ namespace Presentation
             this.IconMinimize.AccessibleName = "";
             this.IconMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IconMinimize.Image = ((System.Drawing.Image)(resources.GetObject("IconMinimize.Image")));
-            this.IconMinimize.Location = new System.Drawing.Point(664, 5);
-            this.IconMinimize.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.IconMinimize.Location = new System.Drawing.Point(443, 3);
             this.IconMinimize.Name = "IconMinimize";
-            this.IconMinimize.Size = new System.Drawing.Size(30, 31);
+            this.IconMinimize.Size = new System.Drawing.Size(20, 20);
             this.IconMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.IconMinimize.TabIndex = 14;
             this.IconMinimize.TabStop = false;
@@ -182,10 +175,9 @@ namespace Presentation
             this.IconClose.AccessibleDescription = "";
             this.IconClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IconClose.Image = ((System.Drawing.Image)(resources.GetObject("IconClose.Image")));
-            this.IconClose.Location = new System.Drawing.Point(707, 5);
-            this.IconClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.IconClose.Location = new System.Drawing.Point(471, 3);
             this.IconClose.Name = "IconClose";
-            this.IconClose.Size = new System.Drawing.Size(30, 31);
+            this.IconClose.Size = new System.Drawing.Size(20, 20);
             this.IconClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.IconClose.TabIndex = 14;
             this.IconClose.TabStop = false;
@@ -197,10 +189,9 @@ namespace Presentation
             this.lblDangNhap.BackColor = System.Drawing.Color.SteelBlue;
             this.lblDangNhap.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDangNhap.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblDangNhap.Location = new System.Drawing.Point(248, 29);
-            this.lblDangNhap.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDangNhap.Location = new System.Drawing.Point(165, 19);
             this.lblDangNhap.Name = "lblDangNhap";
-            this.lblDangNhap.Size = new System.Drawing.Size(259, 45);
+            this.lblDangNhap.Size = new System.Drawing.Size(174, 32);
             this.lblDangNhap.TabIndex = 13;
             this.lblDangNhap.Text = "ĐĂNG NHẬP";
             // 
@@ -208,10 +199,9 @@ namespace Presentation
             // 
             this.lnkQuenMatKhau.AutoSize = true;
             this.lnkQuenMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkQuenMatKhau.Location = new System.Drawing.Point(300, 411);
-            this.lnkQuenMatKhau.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lnkQuenMatKhau.Location = new System.Drawing.Point(200, 267);
             this.lnkQuenMatKhau.Name = "lnkQuenMatKhau";
-            this.lnkQuenMatKhau.Size = new System.Drawing.Size(150, 22);
+            this.lnkQuenMatKhau.Size = new System.Drawing.Size(103, 15);
             this.lnkQuenMatKhau.TabIndex = 4;
             this.lnkQuenMatKhau.TabStop = true;
             this.lnkQuenMatKhau.Text = "Quên Mật Khẩu ?";
@@ -223,10 +213,9 @@ namespace Presentation
             this.btnDangNhap.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangNhap.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnDangNhap.Location = new System.Drawing.Point(304, 358);
-            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnDangNhap.Location = new System.Drawing.Point(203, 233);
             this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(147, 40);
+            this.btnDangNhap.Size = new System.Drawing.Size(98, 26);
             this.btnDangNhap.TabIndex = 3;
             this.btnDangNhap.Text = "Đăng Nhập";
             this.btnDangNhap.UseVisualStyleBackColor = false;
@@ -234,19 +223,17 @@ namespace Presentation
             // 
             // txtTaiKhoan
             // 
-            this.txtTaiKhoan.Location = new System.Drawing.Point(201, 143);
-            this.txtTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtTaiKhoan.Location = new System.Drawing.Point(134, 93);
             this.txtTaiKhoan.Name = "txtTaiKhoan";
-            this.txtTaiKhoan.Size = new System.Drawing.Size(481, 26);
+            this.txtTaiKhoan.Size = new System.Drawing.Size(322, 20);
             this.txtTaiKhoan.TabIndex = 0;
             // 
             // txtMatKhau
             // 
-            this.txtMatKhau.Location = new System.Drawing.Point(201, 222);
-            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtMatKhau.Location = new System.Drawing.Point(134, 144);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.PasswordChar = '*';
-            this.txtMatKhau.Size = new System.Drawing.Size(481, 26);
+            this.txtMatKhau.Size = new System.Drawing.Size(322, 20);
             this.txtMatKhau.TabIndex = 1;
             this.txtMatKhau.UseSystemPasswordChar = true;
             // 
@@ -255,10 +242,9 @@ namespace Presentation
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(66, 218);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(44, 142);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 29);
+            this.label2.Size = new System.Drawing.Size(81, 20);
             this.label2.TabIndex = 6;
             this.label2.Text = "Mật Khẩu:";
             // 
@@ -267,10 +253,9 @@ namespace Presentation
             this.lblTaiKhoan.AutoSize = true;
             this.lblTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTaiKhoan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTaiKhoan.Location = new System.Drawing.Point(66, 140);
-            this.lblTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTaiKhoan.Location = new System.Drawing.Point(44, 91);
             this.lblTaiKhoan.Name = "lblTaiKhoan";
-            this.lblTaiKhoan.Size = new System.Drawing.Size(129, 29);
+            this.lblTaiKhoan.Size = new System.Drawing.Size(84, 20);
             this.lblTaiKhoan.TabIndex = 7;
             this.lblTaiKhoan.Text = "Tài Khoản:";
             // 
@@ -282,18 +267,19 @@ namespace Presentation
             // frmLogin
             // 
             this.AcceptButton = this.btnDangNhap;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1050, 462);
+            this.ClientSize = new System.Drawing.Size(700, 300);
             this.ControlBox = false;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Tag = "";
             this.Text = "frmLogin";
+            this.Load += new System.EventHandler(this.frmLogin_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);

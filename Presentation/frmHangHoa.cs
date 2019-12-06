@@ -1,14 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using System.Data;
+using Excel = Microsoft.Office.Interop.Excel;
 namespace Presentation
 {
     public partial class frmHangHoa : Form
@@ -22,9 +16,9 @@ namespace Presentation
         ComboBox cb2 = new ComboBox();
         ComboBox cb3 = new ComboBox();
         frmAddHangHoa frm;
-        SqlConnection sql = new SqlConnection("Data Source=(localdb)\\ProjectsV13;Initial Catalog=DOAN;Integrated Security=True");
+        SqlConnection sql = new SqlConnection("Data Source=DESKTOP-RRIQLD7\\SQLEXPRESS;Initial Catalog=QLST;Integrated Security=True");
         SqlCommand com;
-        string comma = "Data Source=(localdb)\\ProjectsV13;Initial Catalog=DOAN;Integrated Security=True";
+        string comma = "Data Source=DESKTOP-RRIQLD7\\SQLEXPRESS;Initial Catalog=QLST;Integrated Security=True";
         SqlConnection cnn;
         public frmHangHoa()
         {
@@ -68,5 +62,33 @@ namespace Presentation
 
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            copyAllToClipboard();
+            Excel.Application xlexcel;
+            Excel.Workbook xlWorkBook;
+            Excel.Worksheet xlWorkSheet;
+            object misValue = System.Reflection.Missing.Value;
+            xlexcel = new Excel.Application();
+            xlexcel.Visible = true;
+            xlWorkBook = xlexcel.Workbooks.Add(misValue);
+            xlWorkSheet = (Excel.Worksheet)xlWorkBook.Worksheets.get_Item(1);
+            Excel.Range CR = (Excel.Range)xlWorkSheet.Cells[1, 1];
+            CR.Select();
+            xlWorkSheet.PasteSpecial(CR, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, true);
+        }
+    
+        private void copyAllToClipboard()
+        {
+            dataGridView1.SelectAll();
+            DataObject dataObj = dataGridView1.GetClipboardContent();
+            if(dataObj!=null)
+            {
+                Clipboard.SetDataObject(dataObj);
+            }
+        }
+
+        
     }
 }
